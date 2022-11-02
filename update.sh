@@ -57,7 +57,7 @@ sudo systemctl start SoundEseti.service
 
 sleep 10
 
-systemctl status AlarmEseti.service >> $LOG &>> $LOG
+systemctl status SoundEseti.service >> $LOG &>> $LOG
 
 
 #sleep 5
